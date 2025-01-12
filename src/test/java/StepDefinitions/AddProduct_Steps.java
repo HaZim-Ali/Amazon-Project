@@ -44,7 +44,7 @@ public class AddProduct_Steps {
     public void click_add_to_basket() throws InterruptedException {
 //        scrollDownToElement(HZM,Basket.AddBasket());
         Basket.AddBasket().click();
-        Thread.sleep(10000);
+//        Thread.sleep(10000);
     }
     @And("navigate to home page")
     public void navigate_to_home_page(){

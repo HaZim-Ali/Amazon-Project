@@ -41,10 +41,10 @@ public class Hooks {
 
     @After
     public void quit() throws InterruptedException {
-        Thread.sleep(3000);  // Just a small wait before quitting
-        if (HZM != null) {
-            HZM.quit();  // Quit the driver after the test
-        }
+//        Thread.sleep(3000);  // Just a small wait before quitting
+//        if (HZM != null) {
+//            HZM.quit();  // Quit the driver after the test
+//        }
     }
 }
 

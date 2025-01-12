@@ -19,10 +19,10 @@ public class AddProduct_Locate {
         return HZM.findElement(By.xpath("//img[@alt=\"Audio\"]"));
     }
     public WebElement AddBasket (){
-        return HZM.findElement(By.xpath("//div[@class=\"ProductShowcaseActions__action__o0KFb\"]//button[@aria-label=\"Add to Basket\"]"));
+        return HZM.findElement(By.xpath("//*[@id=\"CampaignProductList-CampaignProductList\"]/div/div/div/div[1]/div/div/ul/li[1]/a"));
     }
     public WebElement HomePage (){
-        return HZM.findElement(By.xpath("//*[@id=\"nav-area\"]/div/div[2]/div/div/div[2]/div[2]/nav/ul/li[1]/a"));
+        return HZM.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]"));
     }
 
 }

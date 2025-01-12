@@ -2,7 +2,6 @@ package TestRunners;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-// CucumberOptions annotation to configure the test run
 @CucumberOptions(
         features = "src/main/resources/features",
 
@@ -15,6 +14,7 @@ import io.cucumber.testng.CucumberOptions;
 //        monochrome = true
 )
 public class Runner extends AbstractTestNGCucumberTests {
+
 
 }
 
